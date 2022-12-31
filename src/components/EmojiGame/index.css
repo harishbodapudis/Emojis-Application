@@ -1,0 +1,33 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.nav-bar {
+  background-color: #ffffff33;
+  margin: 0px;
+  padding: 0px;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.display-mode {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,29 @@
+/* Write your code here. */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.game-heading {
+  font-size: 18px;
+  color: #ffffff;
+}
+.game-label-box {
+  display: flex;
+  flex-direction: row;
+}
+.score-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.score-data {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.display-mode {
+  display: none;
+}

@@ -1,0 +1,40 @@
+/* Write your code here. */
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.result-data-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+.result-score-box {
+  text-align: center;
+}
+.score-text {
+  color: #6a59ff;
+  font-weight: bold;
+}
+.result-status {
+  color: #ffffff;
+}
+.win-lose-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  border: 0px;
+  border-radius: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
+.emojis-group-img {
+  width: 250px;
+  height: 300px;
+}
